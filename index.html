@@ -18,6 +18,30 @@
   <!-- ANITA: pricing goes here -->
 
   <!-- JEL: signup form goes here -->
+   <section class="jel-signup">
+  <style>
+    .jel-signup { text-align: center; }
+    .jel-form { max-width: 320px; margin: auto; text-align: left; }
+    .jel-input { display: block; width: 100%; padding: 10px; margin: 6px 0 16px; box-sizing: border-box; }
+    .jel-button { width: 100%; padding: 12px; background: #2563EB; color: white; border: 0; border-radius: 6px; cursor: pointer; }
+  </style>
+
+  <h2>Join StudyNest</h2>
+  <p>Find a study partner in your course, in minutes.</p>
+
+  <form class="jel-form" method="post">
+    <label for="jel-name">Your name</label>
+    <input class="jel-input" id="jel-name" name="name" autocomplete="name" required>
+
+    <label for="jel-email">Email address</label>
+    <input class="jel-input" id="jel-email" name="email" type="email" autocomplete="email" required>
+
+    <label for="jel-course">Your course</label>
+    <input class="jel-input" id="jel-course" name="course" placeholder="e.g. Biology 101" required>
+
+    <button class="jel-button" type="submit">Sign up</button>
+  </form>
+</section>
 
   <!-- WILLIAM: footer goes here -->
 </body>
